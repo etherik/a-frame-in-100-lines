@@ -23,6 +23,7 @@ export const metadata: Metadata = {
     title: 'ethrik.xyz',
     description: 'Swap with Jumper!',
     images: [`${NEXT_PUBLIC_URL}/jumper-image-1.png`],
+    url: `https://jumper.exchange`
   },
   other: {
     ...frameMetadata,
