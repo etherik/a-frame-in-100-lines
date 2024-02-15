@@ -28,8 +28,8 @@ async function getResponse(req: NextRequest): Promise<NextResponse> {
     getFrameHtmlResponse({
       buttons: [
         {
-          label: `What are you waiting for? Try it!``,
-        },
+          label: `What are you waiting for? Try it!`,
+        }
       ],
       image: {
         src: `${NEXT_PUBLIC_URL}/jumper-image-1.png`,
