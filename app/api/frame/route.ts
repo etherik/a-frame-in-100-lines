@@ -17,7 +17,7 @@ async function getResponse(req: NextRequest): Promise<NextResponse> {
     text = message.input;
   }
 
-  if (message?.button === 3) {
+  if (message?.button === 1) {
     return NextResponse.redirect(
       'https://www.jumper.exchange/swap?from=eth&to=usdc&ref=onchainkit',
       { status: 302 },
