@@ -5,7 +5,7 @@ import { NEXT_PUBLIC_URL } from './config';
 const frameMetadata = getFrameMetadata({
   buttons: [
     {
-      label: 'Story time!',
+ "Upa"      label: 'Story time!',
     },
     {
       action: 'link',
@@ -13,7 +13,7 @@ const frameMetadata = getFrameMetadata({
       target: 'https://www.google.com',
     },
     {
-      label: 'Redirect to pictures',
+      label: 'Swap with Jumper!',
       action: 'post_redirect',
     },
   ],
@@ -28,7 +28,7 @@ const frameMetadata = getFrameMetadata({
 });
 
 export const metadata: Metadata = {
-  title: 'zizzamia.xyz',
+  title: 'ethrik.xyz',
   description: 'LFG',
   openGraph: {
     title: 'zizzamia.xyz',
